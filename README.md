@@ -1,24 +1,3 @@
-## clamav2yara
-
-This repository provides Yara rules generated from the daily updated ClamAV Virus Database (CVD).
-
-daily\_(ndb|ndu).yara -> containing digital signatures
-daily\_(hsb|hdb).yara -> containing md5 hashes
-
-total.yara contains all the Yara rulesets merged to one large file.
-
-
-
-### Self hosting:
-
-Git, ClamaV and Git-LFS needed.
-
-Daily cronjob for *clamav2yara.sh* needed
-
-Information about self hosting will be provided soon!
-
-
-
 ### Script usage:
 
 #### Prerequisites:
